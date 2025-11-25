@@ -1,36 +1,19 @@
 {
-  "name": "react-laps",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "react-essentials-start",
+  "version": "0.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack serve --mode development --open",
-    "build": "webpack --mode production"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MSH38/react-labs.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/MSH38/react-labs/issues"
-  },
-  "homepage": "https://github.com/MSH38/react-labs#readme",
   "dependencies": {
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.28.5",
-    "@babel/preset-env": "^7.28.5",
-    "@babel/preset-react": "^7.28.5",
-    "babel-loader": "^10.0.0",
-    "html-webpack-plugin": "^5.6.5",
-    "webpack": "^5.103.0",
-    "webpack-cli": "^6.0.1",
-    "webpack-dev-server": "^5.2.2"
-  }
+    "@vitejs/plugin-react": "^4.0.0",
+    "vite": "^7.2.4"
+  },
+  "keywords": [],
+  "description": ""
 }
