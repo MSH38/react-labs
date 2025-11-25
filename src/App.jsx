@@ -1,4 +1,11 @@
+import { useState } from 'react'
+
 function App() {
+  const [selectedValue, setSelectedValue] = useState('$100');
+  function applyDiscount() {
+    setSelectedValue('$75');
+  }
+  
   return (
     <div>
       <header>
@@ -11,6 +18,8 @@ function App() {
       </header>
       <main>
         <h2>Time to get started!</h2>
+        <p data-testid="price">{selectedValue}</p>
+        <button onClick={applyDiscount} >Apply Discount</button>
       </main>
     </div>
   );
